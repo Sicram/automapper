@@ -12,22 +12,5 @@ interface IAutomapper
      * @param  class-string<T> $class
      * @return T
      */
-    public function fromString(string $data, string $class);
-
-    /**
-     * @template T of object
-     *
-     * @param  array<mixed>    $data
-     * @param  class-string<T> $class
-     * @return T
-     */
-    public function fromArray(array $data, string $class);
-
-    /**
-     * @template T of object
-     *
-     * @param  class-string<T> $class
-     * @return T
-     */
-    public function fromObject(object $data, string $class);
+    public function map(mixed $data, string $class);
 }

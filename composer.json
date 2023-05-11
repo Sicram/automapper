@@ -1,0 +1,20 @@
+{
+    "name": "sicram/automapper",
+    "description": "A simple library to map objects",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "json-mapper/json-mapper": "^2.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sicram\\Automapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonathan Cruz",
+            "email": "jonacdev@gmail.com"
+        }
+    ]
+}

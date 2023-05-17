@@ -1,20 +1,31 @@
 {
-    "name": "sicram/automapper",
-    "description": "A simple library to map objects",
-    "type": "library",
-    "license": "MIT",
-    "require": {
-        "json-mapper/json-mapper": "^2.17"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sicram\\Automapper\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Jonathan Cruz",
-            "email": "jonacdev@gmail.com"
-        }
-    ]
+  "name": "sicram/automapper",
+  "description": "A simple library to map objects",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "json-mapper/json-mapper": "^2.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sicram\\Automapper\\": "src/automapper",
+      "Sicram\\Automapper\\Tests\\": "src/tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jonathan Cruz",
+      "email": "jonacdev@gmail.com"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-main": "x.x.x"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
